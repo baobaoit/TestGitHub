@@ -21,7 +21,10 @@ namespace Demo
             double a = Convert.ToDouble(textBox1.Text);
             double b = Convert.ToDouble(textBox2.Text);
             double tong = a + b;
-            MessageBox.Show(tong.ToString());
+            //Khong su dung MessageBox
+            //MessageBox.Show(tong.ToString());
+            //Dung label
+            label1.Text = tong.ToString();
         }
     }
 }
