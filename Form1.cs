@@ -29,7 +29,7 @@ namespace Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Tôi là Lờ ");
+            MessageBox.Show("Lớp ỒN");
         }
     }
 }
