@@ -26,5 +26,10 @@ namespace Demo
             //Dung label
             label1.Text = tong.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tôi là Lờ ");
+        }
     }
 }
