@@ -15,5 +15,13 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double tong = a + b;
+            MessageBox.Show(tong.ToString());
+        }
     }
 }
