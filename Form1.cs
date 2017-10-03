@@ -18,8 +18,8 @@ namespace Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble(textBox1.Text);
-            double b = Convert.ToDouble(textBox2.Text);
+            double a = Convert.ToDouble(textBox2.Text);
+            double b = Convert.ToDouble(textBox1.Text);
             double tong = a + b;
             //Khong su dung MessageBox
             //MessageBox.Show(tong.ToString());
@@ -29,7 +29,15 @@ namespace Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Lớp ỒN");
+            //MessageBox.Show("Lớp ỒN");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox2.Text);
+            double b = Convert.ToDouble(textBox1.Text);
+            double hieu = a - b;
+            label1.Text = hieu.ToString();
         }
     }
 }
