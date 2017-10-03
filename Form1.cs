@@ -34,10 +34,13 @@ namespace Demo
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble(textBox2.Text);
-            double b = Convert.ToDouble(textBox1.Text);
-            double hieu = a - b;
-            label1.Text = hieu.ToString();
+            if (textBox1.Text != string.Empty && textBox2.Text != string.Empty)
+            {
+                double a = Convert.ToDouble(textBox2.Text);
+                double b = Convert.ToDouble(textBox1.Text);
+                double hieu = a - b;
+                label1.Text = hieu.ToString();
+            }
         }
     }
 }
